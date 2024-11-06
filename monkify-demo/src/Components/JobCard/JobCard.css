@@ -1,0 +1,112 @@
+.job-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  gap: 30px;
+  margin: 10px;
+}
+
+.job-card .date {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.job-card h3 {
+  margin: 10px 0;
+}
+.job-card p {
+  font-size: 14px;
+}
+
+.job-card .type-location {
+  color: #555;
+}
+
+/* .job-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.responsive-anchor {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show up to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  max-height: 4.5em; /* Approx. 3 lines of text height */
+  line-height: 1.5em; /* Set line height */
+  font-size: 16px; /* Adjust font size as needed */
+  color: blue;
+  text-decoration: none;
+}
+
+.card {
+  width: 100%;
+}
+
+.date-label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 6px;
+  border-radius: 15px;
+  font-size: 13px;
+  color: #333;
+  width: 50%;
+  background-color: #d6d1d1;
+}
+.date-highlight {
+  font-weight: bold;
+  color: #333;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 8px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.tag-design {
+  background-color: rgb(201, 242, 201);
+  color: rgb(67, 164, 67);
+}
+
+.tag-development {
+  background-color: rgb(214, 214, 253);
+  color: rgb(34, 48, 178);
+}
+
+.tag-project {
+  background-color: rgb(235, 194, 118);
+  color: orange;
+}
+
+.business {
+  background-color: rgb(238, 141, 238);
+  color: purple;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: currentColor;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

@@ -1,0 +1,68 @@
+.sidebar {
+  width: 300px;
+  height: 900px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  background-color: rgb(249, 247, 247);
+}
+
+.menu,
+.departments ul,
+.settings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li,
+.departments li,
+.settings li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu .active {
+  font-weight: bold;
+}
+
+.departments,
+.settings {
+  margin-top: 20px;
+}
+
+.bi {
+  font-size: 18px;
+}
+.bi-map-fill {
+  color: #181bf7;
+}
+
+.bi-r-square-fill {
+  font-size: 30px;
+}
+.bi-square-fill {
+  font-size: 10px;
+}
+
+.Design {
+  color: rgb(67, 164, 67);
+}
+
+.Developer {
+  color: rgb(34, 48, 178);
+}
+
+.Manager {
+  color: orange;
+}
+
+.Marketing {
+  color: purple;
+}

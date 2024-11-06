@@ -1,0 +1,34 @@
+.custom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+.custom-header .form-control {
+  max-width: 300px;
+}
+.custom-header .icon-btn {
+  background: none;
+  border: none;
+}
+.recruitment-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.recruitment-title {
+  display: flex;
+  align-items: center;
+}
+.recruitment-title i {
+  font-size: 24px;
+  color: #6f42c1;
+  margin-right: 10px;
+}
+.btn-create-job {
+  color: #fff;
+  background-color: #6f42c1;
+}
